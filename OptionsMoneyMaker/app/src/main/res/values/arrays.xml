@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="drawer_icon">
+        <item>@drawable/home</item>
+        <item>@drawable/setting</item>
+        <item>@drawable/about</item>
+        <item>@drawable/help</item>
+        <item>@drawable/logout</item>
+    </integer-array>
+</resources>

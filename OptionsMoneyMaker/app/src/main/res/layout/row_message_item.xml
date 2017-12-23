@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_light_grey"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="date"
+        android:singleLine="true"
+        android:textColor="@color/app_date_color"
+        android:textSize="@dimen/text_font" />
+
+    <TextView
+        android:id="@+id/txt_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@+id/txt_date"
+        android:singleLine="true"
+        android:text="Profit maker"
+        android:textColor="@color/app_date_color"
+        android:textSize="@dimen/text_font" />
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_date"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="No message data found."
+        android:textColor="@color/app_date_color"
+        android:textSize="@dimen/text_font" />
+
+</RelativeLayout>

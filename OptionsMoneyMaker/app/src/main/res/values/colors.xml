@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#344675</color>
+    <color name="colorPrimaryDark">#00084D</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#6460B6</color>
+
+    <color name="app_bg">#ffffff</color>
+    <color name="app_button_bg">#344675</color>
+    <color name="blue_color">#344675</color>
+    <color name="green_color">#31a66e</color>
+    <color name="app_button_font">#ffffff</color>
+    <color name="progress_bg">#5f333333</color>
+    <color name="white_font">#ffffff</color>
+    <color name="black_font">#333333</color>
+    <color name="app_date_color">#7f7f7f</color>
+    <color name="list_item_bg">#F7F7F7</color>
+    <color name="dark_black">#000000</color>
+    <color name="dark_bg">#C3C3C3</color>
+</resources>

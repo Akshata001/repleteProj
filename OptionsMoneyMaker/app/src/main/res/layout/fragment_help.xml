@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    tools:context="com.optionsmoneymaker.optionsmoneymaker.fragment.HelpFragment">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Need Help?"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textColor="@color/black_font"/>
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_blue"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="EMAIL SUPPORT"
+        android:textColor="@color/white_font"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Visit Our Website"
+        android:textColor="@color/black_font"
+        android:textStyle="bold"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:autoLink="web"
+        android:textColor="@color/blue_color"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context="com.optionsmoneymaker.optionsmoneymaker.fragment.SettingFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_notification_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_notification" />
+
+        <TextView
+            android:id="@+id/tv_notification_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_notification_right"
+            android:layout_toRightOf="@+id/iv_notification_icon"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Sync Schedule"
+            android:textColor="@color/black_font"
+            android:textSize="@dimen/text_font"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_notification_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_notification_title"
+            android:layout_toLeftOf="@+id/iv_notification_right"
+            android:layout_toRightOf="@+id/iv_notification_icon"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Instant (Push)"
+            android:textColor="@color/black_font"
+            android:textSize="@dimen/small_font" />
+
+        <ImageView
+            android:id="@+id/iv_notification_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@drawable/icon_arrow" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_font_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_font" />
+
+        <TextView
+            android:id="@+id/tv_font_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_font_right"
+            android:layout_toRightOf="@+id/iv_font_icon"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Font Size"
+            android:textColor="@color/black_font"
+            android:textSize="@dimen/text_font"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_font_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_font_title"
+            android:layout_toLeftOf="@+id/iv_font_right"
+            android:layout_toRightOf="@+id/iv_font_icon"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="100%"
+            android:textColor="@color/black_font"
+            android:textSize="@dimen/small_font" />
+
+        <ImageView
+            android:id="@+id/iv_font_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@drawable/icon_arrow" />
+    </RelativeLayout>
+</LinearLayout>

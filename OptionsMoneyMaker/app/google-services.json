@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701504656461",
+    "firebase_url": "https://optionmoneymaker-146417.firebaseio.com",
+    "project_id": "optionmoneymaker-146417",
+    "storage_bucket": "optionmoneymaker-146417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701504656461:android:667d67580e86d8a7",
+        "android_client_info": {
+          "package_name": "com.optionsmoneymaker.optionsmoneymaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701504656461-dic490j8vmui0obigjjcp59hr1hg93br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGAxOZkjKyePFaccOeQa4xelwUmPzovf4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
